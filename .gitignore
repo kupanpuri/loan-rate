@@ -1,8 +1,12 @@
 .env
 .env.local
+import.env
+.agents
+.npm-cache
 .next
 node_modules
 data/*.json
 !.gitkeep
 npm-debug.log*
 dev-server*.log
+*.zip
