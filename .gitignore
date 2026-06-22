@@ -1,0 +1,8 @@
+.env
+.env.local
+.next
+node_modules
+data/*.json
+!.gitkeep
+npm-debug.log*
+dev-server*.log

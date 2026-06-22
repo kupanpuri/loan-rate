@@ -1,0 +1,29 @@
+{
+  "name": "painel-loan",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "snapshot": "tsx scripts/snapshot.ts"
+  },
+  "dependencies": {
+    "@bgd-labs/aave-address-book": "^4.44.22",
+    "@vitejs/plugin-react": "^5.1.2",
+    "lucide-react": "^0.468.0",
+    "next": "^14.2.33",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "viem": "^2.40.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.1",
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^14.2.33"
+  }
+}
