@@ -4,6 +4,7 @@ import { loadLatestSnapshot, saveSnapshot } from "@/lib/storage";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
+export const preferredRegion = "gru1";
 
 async function saveSnapshotBestEffort(snapshot: Awaited<ReturnType<typeof collectSnapshot>>) {
   try {
